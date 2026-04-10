@@ -1,4 +1,5 @@
 let RandomNumber;
+let limit = 10;
 
 let userNum;
 function main(){
@@ -19,6 +20,6 @@ function GenerateRandomNumber(){
 
 function CheckNumber(){
     userNum = Number(document.getElementById("number-input").value);
-   main()
+    main()
 
 }

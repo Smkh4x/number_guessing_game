@@ -52,10 +52,10 @@ body{
     
 }
 #result{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     display: flex;
     margin: 0 540px;
-    width: 100px;
+    width: 500px;
     height: 30px;
     position: relative;
     top: -150px;
