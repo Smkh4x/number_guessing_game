@@ -2,3 +2,61 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-image: url(imgs/background.jpg);
+    background-size: 100%;
+}
+#game-form{
+    background-color: rgba(223, 236, 223, 0.2);
+    position: relative;
+    justify-items: center;
+    width: 500px;
+    min-height: 200px;
+    margin: 80px 350px;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgb(203, 101, 101);
+    backdrop-filter: blur(4px);
+}
+.game-title{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.game-button{
+    display: flex;
+    position: relative;
+    margin: 0 200px;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: 30px;
+    justify-items: center;
+    background-color: aliceblue;
+    justify-content: center;
+}
+.title-game-button {
+    color: rgb(76, 227, 142);
+}
+#number-input{
+    display: flex;
+    margin: 0 120px;
+    height: 30px;
+}
+.game-check-button{
+    display: flex;
+    margin: 0 320px;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: -31px;
+    
+}
+#result{
+    color: aliceblue;
+    display: flex;
+    margin: 0 540px;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: -150px;
+}
